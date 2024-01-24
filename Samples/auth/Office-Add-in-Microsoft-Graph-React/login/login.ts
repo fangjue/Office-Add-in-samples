@@ -11,7 +11,7 @@ import { PublicClientApplication } from "@azure/msal-browser";
 
     const msalInstance = new PublicClientApplication({
         auth: {
-          clientId: 'YOUR APP ID HERE',
+          clientId: '361dcf9b-0b08-45a6-a719-07509a922d07',
           authority: 'https://login.microsoftonline.com/common',
           redirectUri: 'https://localhost:3000/login/login.html' // Must be registered as "spa" type
         },
